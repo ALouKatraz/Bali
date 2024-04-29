@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../img/Bali.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: turquoise;    
+}
+
+main{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2vh 5vw ;
+    border-radius: 100px;
+}
+
+h1{
+    color:#034F1B;
+    margin: 5%;
+}
+
+span{
+    height: 10%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: paleturquoise;
+    opacity:0.8;
+    color: #034F1B;
+    margin-top: 110px;
+    font-weight: bold;
+}
+
+footer{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #034F1B;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #034F1B;
+}
